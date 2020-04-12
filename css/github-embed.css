@@ -31,3 +31,142 @@ li.github-repo-contributor {
 	margin-right: 1em;
 	margin-bottom: 0.5em;
 }
+
+.calendar-graph.days-selected rect.day{
+	opacity:.5
+}
+
+.calendar-graph.days-selected rect.day.active{
+	opacity:1
+}
+
+.calendar-graph .dots{
+	width:64px;
+	height:64px;
+	margin:20px auto 0
+}
+
+.calendar-graph text.month{
+	font-size:10px;
+	fill:#767676
+}
+
+.calendar-graph text.wday{
+	font-size:9px;
+	fill:#767676
+}
+
+.graph-before-activity-overview{
+	border-top-left-radius:3px;
+	border-top-right-radius:3px
+}
+
+.activity-overview-box{
+	border-top-left-radius:0;
+	border-top-right-radius:0
+}
+
+.contrib-footer{
+	padding:0 10px 12px;
+	font-size:11px
+}
+
+.contrib-legend{
+	float:right
+}
+
+.contrib-legend .legend{
+	position:relative;
+	bottom:-1px;
+	display:inline-block;
+	margin:0 5px;
+	list-style:none
+}
+
+.contrib-legend .legend li{
+	display:inline-block;
+	width:10px;
+	height:10px
+}
+
+.contrib-square{
+	font-size:22px;
+	line-height:.9;
+	color:#cce888
+}
+
+
+.contribution-activity h2{
+	margin:30px 0 15px;
+	font-size:18px;
+	font-weight:400
+}
+
+
+.contribution-activity .select-menu-button{
+	position:relative;
+	top:-4px
+}
+
+.contribution-activity.loading .contribution-activity-listing,.contribution-activity.loading .contribution-activity-show-more{
+	display:none
+}
+
+.contribution-activity.loading .contribution-activity-spinner{
+	display:block
+}
+
+.contribution-activity-spinner{
+	display:none;
+	width:64px;
+	height:64px;
+	margin:20px auto 0
+}
+
+.contribution-activity-spinner.next{
+	margin:0 auto
+}
+
+ul.simple-conversation-list a.meta{
+	color:#586069
+}
+
+li.contribution{
+	padding:10px 0;
+	list-style:none
+}
+
+li.contribution h3{
+	display:inline-block;
+	margin:0;
+	font-size:14px
+}
+
+li.contribution .cmeta{
+	display:block;
+	font-size:12px
+}
+
+li.contribution .d{
+	color:#c00
+}
+
+li.contribution .a{
+	color:#8cac29
+}
+
+li.contribution .num{
+	color:#586069
+}
+
+ul {
+	padding-left: 0;
+}
+
+.text-normal {
+	font-weight: 400 !important;
+}
+
+.f4 {
+	font-size: 16px !important;
+}
