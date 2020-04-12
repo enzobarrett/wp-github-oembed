@@ -5,6 +5,7 @@
 				<?php echo esc_html( $data['owner'] ) ?>
 			</strong>
 		</a>
+		<img src="../img/github-logos/octocat.png" alt="">
 		<br>
 		<?php echo esc_html( number_format_i18n( $data['owner_info']->public_repos ) ) ?> repositories, <?php echo esc_html( number_format_i18n( $data['owner_info']->followers ) ) ?> followers.
 
@@ -27,11 +28,18 @@
 
 		@$dom->loadHTML($html);
 
-		# Find class that contains chart, and print that
+		# Find class that contains the chart, and print that
 		$classname="position-relative";
 		$finder = new DomXPath($dom);
 		$spaner = $finder->query("//*[contains(@class, '$classname')]");
 		echo $dom->saveHTML($spaner[0]);
 		?>
+
+		<script>
+		document.querySelector('svg.js-calendar-graph-svg').setAttribute("height", "100");
+		document.querySelector('svg.js-calendar-graph-svg').setAttribute("width", "100%");
+		document.querySelector('svg.js-calendar-graph-svg').setAttribute("viewBox", "0 0 850 90");
+		document.querySelector('.float-left.text-gray').remove();
+		</script>
 	</p>
 </div>
