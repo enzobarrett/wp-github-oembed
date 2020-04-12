@@ -5,7 +5,7 @@
 				<?php echo esc_html( $data['owner'] ) ?>
 			</strong>
 		</a>
-		<img src="../img/github-logos/octocat.png" alt="">
+		<img src="/wp-content/plugins/github-embed/img/github-logos/octocat.png" alt="">
 		<br>
 		<?php echo esc_html( number_format_i18n( $data['owner_info']->public_repos ) ) ?> repositories, <?php echo esc_html( number_format_i18n( $data['owner_info']->followers ) ) ?> followers.
 
