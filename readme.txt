@@ -4,7 +4,7 @@ Donate link: http://www.leewillis.co.uk/wordpress-plugins/?utm_source=wordpress&
 Tags: github, embed, oembed
 Requires at least: 4.6
 Tested up to: 5.4
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 
 == Description ==
 
